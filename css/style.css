@@ -16,7 +16,7 @@ font-family:  'Roboto Mono', monospace;
 font-weight: 300;
 color: whitesmoke;
 background: linear-gradient(-45deg, #ba3912, #c8195c, #1a7b9e, #1a9e7f);
-	background-size: 400% 400%;
+	background-size: 400% 600%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
  }
@@ -175,6 +175,14 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
 }
 
+.work-inside-1 {
+	 color: #fff;
+  padding: 2rem;
+  width: 100%;
+  background-color: var(--body-color);
+  text-align: left;
+}
+
 .work-item .inner .work-inside {
   color: #fff;
   padding: 2rem;
@@ -183,11 +191,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
   text-align: right;
 }
 
-.work-item .inner .work-inside p:last-child {
+.work-item .inner .work-inside .work-inside-1 p:last-child {
   margin-bottom: 0;
 }
 
-.work-item .inner:hover .work-inside {
+.work-item .inner:hover .work-inside .work-inside-1 {
   opacity: 1;
 }
 
@@ -277,7 +285,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
     font-size: 2.2rem
   }
 
-  .work-item .inner .work-inside {
+  .work-item .inner .work-inside .work-inside-1 {
     opacity: 1;
   }
 
